@@ -128,6 +128,12 @@ Modo de trabajo
 : Grupos de 3 personas.
 \end_layout
 
+\begin_layout Standard
+Equipo de trabajo: Dennis Luna, Graciela Rivera, Luis E.
+ Vargas Porras.
+ 
+\end_layout
+
 \begin_layout Abstract
 En el presente trabajo práctico se introduce la implementación de redes
  bayesianas.
@@ -195,7 +201,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename MNIST.PNG
+	filename ../../../../Downloads/MNIST.PNG
 	lyxscale 85
 	scale 85
 
@@ -347,7 +353,7 @@ Para evaluar la verosimilitud
 \begin_layout Enumerate
 
 \series bold
-(10 puntos extra)Enfoque basado en histogramas
+(10 puntos extra) Enfoque basado en histogramas
 \series default
 : Para ello se le sugiere crear la matriz 
 \emph on
@@ -491,6 +497,16 @@ La clase estimada a la que pertenece la observación
 
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+Implemente una funcion 
+\emph on
+test_model
+\emph default
+ por cada variante de Bayes Ingenuo.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \series bold
@@ -506,6 +522,16 @@ la cual calcule y retorne la tasa de aciertos para un conjunto de observaciones,
 test_model.
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+Implemente una funcion 
+\emph on
+test_model_batch
+\emph default
+ por cada variante de Bayes Ingenuo.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Section
 Prueba del modelo
@@ -575,8 +601,11 @@ Compruebe lo anterior usando el enfoque basado en la binarizacion (func.
 train
 \emph default
 ).
- Calcule la tasa de aciertos para 10 corridas, cada una con una partición
- de entrenamiento y otra de prueba distintas.
+ Calcule la tasa de aciertos para 10 corridas (
+\series bold
+idealmente 30
+\series default
+), cada una con una partición de entrenamiento y otra de prueba distintas.
  Reporte los resultados de las corridas en una tabla, además de la media
  y desviación estándar de la tasa de aciertos para las 10 corridas.
  Para realizar las particiones puede usar la libreria 
@@ -589,7 +618,7 @@ sklearn.
 \begin_layout Enumerate
 Compruebe lo anterior usando el enfoque basado en histogramas, binarizado
  y el basado en el modelo Gaussiano.
- Comente y compare los resultados, usando los .
+ Comente y compare los resultados.
 \end_layout
 
 \end_deeper
