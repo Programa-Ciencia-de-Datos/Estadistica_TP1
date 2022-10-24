@@ -824,6 +824,75 @@ solo se necesita almacenar los parametros mu y sigma
 
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+R/ En cuanto a la representación propuesta por histogramas es un enfoque
+ que se limita únicamente a la parte visual haciendo que el alcance del
+ método tenga una eficiencia menor como se pudo apreciar en el punto anterior.
+ La ventaja de un enfoque basado en el modelo paramétrico radica en el uso
+ de puntuaciones y de aplicación directa del corrector Laplaciano, el cual
+ permite que probabilidades cercanas a cero no se indefina con los cálculos
+ de probabilidades.
+ Otra ventaja que tiene este método es el uso de parámetros definidos por
+ ejemplo el uso de mu y sigma para una densidad Gaussiana dando mayor control
+ sobre los cálculos y criticidad al momento de seleccionar una clase.
+\end_layout
+
+\begin_layout Standard
+A nivel de implementación la figura 4 muestra a nivel de código el uso de
+ un modelo paramétrico basado en la densidad de la función Gaussiana.
+ Nótese el uso de puntuaciones para determinar la clase predominante, en
+ este caso como resultado se obtuvo que la clase predominante corresponde
+ a la número 2 (Índice 2 del lista).
+ En comparativa con el modelo con enfoque de histogramas se obtuvo el mismo
+ resultado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Plots/screenshots/score_gaussian.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Implementación de modelo con enfoque paramétrico.
+ Función densidad Gaussiana
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 
@@ -841,6 +910,56 @@ y retorne una lista con las dos matrices (
 ), junto con el arreglo de probabilidades a priori para todas las clases.
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+R/ Para este punto la implemetación esta dada en la figura 5 que se ilustra
+ a continuación:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Plots/screenshots/Lista_Matrices_Prob.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bloque de implementación de la lista con las 2 matrices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \series bold
