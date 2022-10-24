@@ -195,7 +195,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename Plots/screenshots/muestra_datos.png
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/muestra_datos.png
 	lyxscale 85
 	scale 50
 
@@ -360,7 +360,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/prob_priori.png
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/prob_priori.png
 	scale 50
 
 \end_inset
@@ -429,7 +429,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/output_ppriori.png
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/output_ppriori.png
 	scale 50
 
 \end_inset
@@ -539,7 +539,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_1.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -554,7 +554,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_2.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -569,7 +569,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_3.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -586,7 +586,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_4.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -601,7 +601,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_5.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -616,7 +616,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_6.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -633,7 +633,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_7.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -648,7 +648,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_8.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -663,7 +663,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_9.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -680,7 +680,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_10.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -695,7 +695,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/CompoundPlot1.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -862,7 +862,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/score_gaussian.png
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/score_gaussian.png
 	scale 50
 
 \end_inset
@@ -930,7 +930,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Lista_Matrices_Prob.png
+	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/Lista_Matrices_Prob.png
 	scale 50
 
 \end_inset
@@ -1055,6 +1055,95 @@ test_model_batch
  por cada variante de Bayes Ingenuo.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Solución
+\series default
+: Para este enunciado se utiliza dos funciones para el cálculo de la tasa
+ de aciertos para ambas variantes tanto para Bernoulli como la Gaussianna
+ utilizando la misma lógica de programación variando ciertas consideraciones
+ por las probabilidades que utlizan cada una pero ambas logran identificar
+ las observaciones corectamente clasificadas en el modelo.
+ A continuación se muestra las funciones descritas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Test_model_batch Función para Bernoulli
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Test_model_batch Función para Gaussian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \end_deeper
 \begin_layout Section
@@ -1113,6 +1202,154 @@ Compruebe lo anterior usando el enfoque basado en la binarizacion (func.
  Comente y compare los resultados.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Solución:
+\series default
+ En esta sección se entrena el modelo con el 100% de datos y se utiliza
+ la función comentada anteriormente de 
+\emph on
+test_model_batch 
+\emph default
+para poder probar la tasa de aciertos.
+ Se observa un número significativo de observaciones con valores 0 o nulos,
+ debido a que existen observaciones que no están dentro de los 
+\begin_inset Quotes cld
+\end_inset
+
+bins
+\begin_inset Quotes crd
+\end_inset
+
+ de los histogramas, y como éste penaliza de forma estricta cada observación,
+ puede que no esté en ninguna de las cubetas, por lo que la probabilidad
+ de ocurrencia para esa observación sería cero, y aún más grave, al aplicarles
+ logaritmos, se indefine ya que ln(0) no esta definido.
+ Esto también se observa en el enfoque Gaussiano, por lo que también para
+ en este caso se observa un comportamiento similar con valores cero o nulos.
+ Por lo que se realiza un tratamiento/corrección vista en clase: La corrección
+ de Laplace, ya que según definición se aumenta el recuento de la variable
+ con cero a un valor pequeño en el numerador, para que la probabilidad total
+ no se convierta en cero o se indefina.
+ En este caso aquellas probabilidades que no caigan en las distintas cubetas
+ del histograma se les imputa un epsilon, para que cuando se trabaje con
+ los logaritmos no se indefinan.
+ La mayoría de las implementaciones del modelo Naive Bayes aceptan esta
+ forma de corrección o una equivalente como parámetro.
+\end_layout
+
+\begin_layout Standard
+En cuanto a la tasa de aciertos, los resultados que se tienen al entrenar
+ el modelo son los siguientes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enfoque Gaussiano
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Engoque Bernoulli
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enfoque de Histogramas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T.A = 91%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TA=
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TA=
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tasa de aciertos con 100% de Datos de entrenamiento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede observar que el modelo con una mayor tasa de aciertos es el ————-
+ con un ———.
+ Una de las razones por el cual este enfoque es el mayor se debe a que——
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 
@@ -1145,6 +1382,758 @@ Compruebe lo anterior usando el enfoque basado en histogramas, binarizado
  Comente y compare los resultados.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Solución: 
+\series default
+Se particiona los datos usando la librería de 
+\emph on
+sklearn 
+\emph default
+y a continuación tiene el siguiente resultados para 10 corridas de la tasa
+ de aciertos, con su respectiva media y desviación estándar: 
+\end_layout
+
 \end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="13">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Corrida 10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Media
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Desviación Estándar
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enfoque Gaussiano
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enfoque Bernoulli
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Enfoque Histograma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Media
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Desviación Estándar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
