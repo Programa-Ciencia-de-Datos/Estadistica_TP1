@@ -103,12 +103,6 @@ PAttern Recongition and MAchine Learning Group (PARMA-Group)
 \end_layout
 
 \begin_layout Standard
-\align center
-Estudiantes : Dennis Luna Acuña- Graciela Rivera Picado - Luis E.
- Vargas Porras
-\end_layout
-
-\begin_layout Standard
 
 \series bold
 Fecha de entrega:
@@ -203,7 +197,7 @@ status open
 \begin_inset Graphics
 	filename Plots/screenshots/muestra_datos.png
 	lyxscale 85
-	scale 85
+	scale 50
 
 \end_inset
 
@@ -330,9 +324,130 @@ train_model.
 
 \begin_deeper
 \begin_layout Standard
-R/ Para esta sección se implementó la probabilidad a priori dada por la
- expresión 
-\begin_inset Formula $p\left(t=k\right)$
+-
+\end_layout
+
+\begin_layout Standard
+R/ Su implementación fue realizada dentro de la función train model, donde
+ se toma como muestra el dataset (expresada en forma de tensor) para cada
+ uno de los formatos de las observaciones, es decir a nivel de escala de
+ grises y de forma binarizada.
+ El resultado final es un tensor unidimensional con 10 posiciones (1 por
+ clase) dando como resultado un 10% de la probabilidad ya que se cuenta
+ con 60 imagenes por clase.
+ En este punto específico solo se toma como probabilidad marginal el caso
+ binarizado de las observaciones.
+\end_layout
+
+\begin_layout Standard
+A nivel de código en la figura 2 se puede apreciar el detalle de la implementaci
+ón, donde cálculo de la probabilidad marginal esta dada por 
+\begin_inset Formula $p\left(t=k\right)=\frac{CantImagenesXclase}{N}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Plots/screenshots/prob_priori.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Implementación para el cálculo de probibilidad a priori o marginal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La función train model fue implementada para que posea un alcance de no
+ solo retornar la probabilidad a prioridad si no de retornar valores como
+ la lista que contiene para cada una de sus posiciones (2 en total), arreglos
+ de tensores con los datos de 
+\shape italic
+p_m_0_given_k
+\shape default
+ y 
+\shape italic
+p_m_1_given_k_acc
+\shape default
+- También se retornan 
+\shape italic
+sigma_given_k_acc 
+\shape default
+y 
+\shape italic
+mu_given_k_acc.
+
+\shape default
+ Dichos parámetros son utilizados en los enfoques que aplican un modelo
+ paramétrico que se discuten más adelante.
+\end_layout
+
+\begin_layout Standard
+En la figura 3 se obtiene el cálculo de la probabilidad a priori:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Plots/screenshots/output_ppriori.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Resultado del cálculo de la probabilidad a Priori
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -387,6 +502,246 @@ con una iteracion por clase
 .
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+R/ En un enfoque basado en histogramas se necesitó de la utilidad de la
+ graficación de histogramas singulares por clases y de un histograma compuesto.
+ Lo primero es tabular el resultado para el caso de los histogramas singulares
+ dada la matriz 
+\shape italic
+p_m_0_given_k
+\shape default
+ y su histograma compuesto obteniendo los siguientes resultados:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_1.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_2.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_3.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_4.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_5.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_6.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_7.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_8.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_9.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/Case_plot_0_10.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Plots/Histograms/p0_given_k/CompoundPlot0.svg
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Histogramas singulares para el caso 
+\shape italic
+p_m_0_given_k 
+\shape default
+e Histograma Compuesto 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \series bold
@@ -429,7 +784,6 @@ solo se necesita almacenar los parametros mu y sigma
 
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Enumerate
 
