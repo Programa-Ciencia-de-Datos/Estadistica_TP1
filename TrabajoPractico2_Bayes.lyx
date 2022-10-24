@@ -391,17 +391,18 @@ Implementación para el cálculo de probibilidad a priori o marginal
 
 \begin_layout Standard
 La función train model fue implementada para que posea un alcance de no
- solo retornar la probabilidad a prioridad si no de retornar valores como
- la lista que contiene para cada una de sus posiciones (2 en total), arreglos
+ solo retornar la probabilidad a priori si no de retornar valores como la
+ lista que contiene para cada una de sus posiciones (2 en total), arreglos
  de tensores con los datos de 
 \shape italic
 p_m_0_given_k
 \shape default
  y 
 \shape italic
-p_m_1_given_k_acc
+p_m_1_given_k
 \shape default
-- También se retornan 
+.
+ También se retornan 
 \shape italic
 sigma_given_k_acc 
 \shape default
@@ -515,11 +516,12 @@ R/ En un enfoque basado en histogramas se necesitó de la utilidad de la
 \shape italic
 p_m_0_given_k
 \shape default
- obteniendo los siguientes resultados:
+ y su histograma compuesto obteniendo los siguientes resultados:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -537,7 +539,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_1.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -552,7 +554,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_2.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -567,7 +569,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_3.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -584,7 +586,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_4.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -599,7 +601,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_5.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -614,7 +616,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_6.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -631,7 +633,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_7.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -646,7 +648,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_8.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -661,7 +663,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_9.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -678,7 +680,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/Case_plot_0_10.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -693,7 +695,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p0_given_k/CompoundPlot0.svg
+	filename Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -726,7 +728,7 @@ status open
 \begin_layout Plain Layout
 Histogramas singulares para el caso 
 \shape italic
-p_m_0_given_k 
+p_m_1_given_k 
 \shape default
 e Histograma Compuesto 
 \end_layout
@@ -739,6 +741,44 @@ e Histograma Compuesto
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+Con base a los resultados en el cuadro 1 se tienen las siguientes conclusiones:
+\end_layout
+
+\begin_layout Itemize
+Las probabilidades graficadas con base al modelo basado en histogramas se
+ resumen en la frecuencia que aparecen probabilidades en el trayecto del
+ eje x.
+ En este caso el histograma compuesto nos puede dar una idea inicial de
+ cual sería un serio candidato a la clase predominante.
+ En los resultados obtenidos se puede notar que la clase candidata predominante
+ corresponde a la clase 2.
+ 
+\end_layout
+
+\begin_layout Itemize
+El uso de histogramas como medio para determinar cual clase posse dominio
+ según la frencuencia de probabilidades graficadas, no es medio seguro ni
+ robusto para el estimado de una clase dominante.
+\end_layout
+
+\begin_layout Itemize
+El método se sustenta en conclusiones visuales los cuales están sujetos
+ a cantidad de clases y cantidad de muestras.
+ El aumento de estos 2 factores significaría la inviabilidad del método.
+\end_layout
+
+\begin_layout Itemize
+La graficación de histogramas singulares nos pueden dar pistas de cual clase
+ posee mayor frencuencia de aparición de probabilidades a lo largo de el
+ eje x, sin embargo no es eficiente sino se tiene disponible un histograma
+ compuesto para ver su comportamiento en comparación con el resto de clases.
 \end_layout
 
 \end_deeper
