@@ -1078,7 +1078,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
+	filename C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
 	lyxscale 50
 	scale 50
 
@@ -1114,7 +1114,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
+	filename C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
 	lyxscale 50
 	scale 50
 
@@ -1292,7 +1292,7 @@ Enfoque de Histogramas
 \begin_inset Text
 
 \begin_layout Plain Layout
-T.A = 91%
+T.A = 83.83%
 \end_layout
 
 \end_inset
@@ -1301,7 +1301,7 @@ T.A = 91%
 \begin_inset Text
 
 \begin_layout Plain Layout
-TA=
+TA=91.50%
 \end_layout
 
 \end_inset
@@ -1395,8 +1395,35 @@ y a continuación tiene el siguiente resultados para 10 corridas de la tasa
  de aciertos, con su respectiva media y desviación estándar: 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tasas de aciertos para 10 corridas usando particiones de entrenamiento y
+ prueba distintas 
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tasas-de-aciertos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="13">
@@ -1547,7 +1574,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+69.44
 \end_layout
 
 \end_inset
@@ -1556,7 +1583,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+66.11
 \end_layout
 
 \end_inset
@@ -1565,7 +1592,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+58.33
 \end_layout
 
 \end_inset
@@ -1574,7 +1601,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+65.56
 \end_layout
 
 \end_inset
@@ -1583,7 +1610,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+56.67
 \end_layout
 
 \end_inset
@@ -1592,7 +1619,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+66.11
 \end_layout
 
 \end_inset
@@ -1601,7 +1628,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+68.89
 \end_layout
 
 \end_inset
@@ -1610,7 +1637,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+67.22
 \end_layout
 
 \end_inset
@@ -1619,7 +1646,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+67.78
 \end_layout
 
 \end_inset
@@ -1628,7 +1655,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+68.33
 \end_layout
 
 \end_inset
@@ -1637,7 +1664,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+65.44
 \end_layout
 
 \end_inset
@@ -1646,7 +1673,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.39
 \end_layout
 
 \end_inset
@@ -1666,7 +1693,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+81.11
 \end_layout
 
 \end_inset
@@ -1675,7 +1702,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+78.33
 \end_layout
 
 \end_inset
@@ -1684,7 +1711,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+77.22
 \end_layout
 
 \end_inset
@@ -1693,7 +1720,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+80.00
 \end_layout
 
 \end_inset
@@ -1702,7 +1729,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+68.33
 \end_layout
 
 \end_inset
@@ -1711,7 +1738,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+75.56
 \end_layout
 
 \end_inset
@@ -1720,7 +1747,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+77.78
 \end_layout
 
 \end_inset
@@ -1729,7 +1756,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+77.78
 \end_layout
 
 \end_inset
@@ -1738,7 +1765,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+81.11
 \end_layout
 
 \end_inset
@@ -1747,7 +1774,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+80.56
 \end_layout
 
 \end_inset
@@ -1756,7 +1783,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+77.78
 \end_layout
 
 \end_inset
@@ -1765,7 +1792,7 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3.80
 \end_layout
 
 \end_inset
@@ -2135,5 +2162,50 @@ Desviación Estándar
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De acuerdo a los resultados mostrados en la tabla 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tasas-de-aciertos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ se determina que el enfoque con mayor tasa de aciertos es el de Bernoulli,
+ el cual también es el que tiene menor desviación estándar.
+ Algunas observaciones dadas durante el desarrollo de ambos enfoques es
+ que el Bernoulli converge bastante rápido durante su ejecución, mientras
+ que en el Gaussiano el tiempo de ejecución es considerablemente mayor,
+ esto debido a que para el cálculo de la probabilidad de la función de densidad
+ se utilizó un algoritmo multivariable donde se estima la matriz de covarianza
+ de 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+, lo cual computacionalmente puede ser exigente dependiendo si el conjunto
+ de datos contiene muchos features y observaciones en sí.
+\end_layout
+
+\begin_layout Standard
+Adicionalmente, en el enfoque de Bernoulli se realiza una binarización del
+ conjunto de datos, lo cual simplifica bastante la obtención de las probabilidad
+es de verosimilitud para cada pixel (con valor de '0' o '1') para cada una
+ de las clases.
+ Otro consideración a comtemplar es que para el enfoque Gaussiano, dicho
+ algoritmo depende de 2 párametros: la media y varianza; en donde la varianza
+ puede necesitar en ocasiones de una correción de Laplace para que cuando
+ sea cero, se sustituya por un valor de casi cero y así no se indefina la
+ probabilidad global.
+ 
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
