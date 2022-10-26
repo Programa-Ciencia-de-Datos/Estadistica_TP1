@@ -195,7 +195,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/muestra_datos.png
+	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/muestra_datos.png
 	lyxscale 85
 	scale 50
 
@@ -360,7 +360,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/prob_priori.png
+	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/prob_priori.png
 	scale 50
 
 \end_inset
@@ -429,7 +429,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/output_ppriori.png
+	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/output_ppriori.png
 	scale 50
 
 \end_inset
@@ -539,7 +539,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -554,7 +554,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -569,7 +569,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -586,7 +586,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -601,7 +601,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -616,7 +616,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -633,7 +633,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -648,7 +648,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -663,7 +663,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -680,7 +680,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -695,7 +695,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/CompoundPlot1.svg
+	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -862,7 +862,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/score_gaussian.png
+	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/score_gaussian.png
 	scale 50
 
 \end_inset
@@ -930,7 +930,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 12/Plots/screenshots/Lista_Matrices_Prob.png
+	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/Lista_Matrices_Prob.png
 	scale 50
 
 \end_inset
@@ -1030,6 +1030,105 @@ test_model
  por cada variante de Bayes Ingenuo.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Solución: 
+\series default
+Para esta sección se establece 
+\emph on
+test_model 
+\emph default
+para las dos variantes del modelo.
+ Su lógica debe ser distinta, ya que la forma de calcular la probabilidd
+ varia una de otra.
+ A continuación se muestra la lógica de programación, y su estructura.
+ Ambas funciones se usan para el apartado anterior, y la explicación de
+ la funcionalidad de cada línea de comando se explican en las figuras siguientes
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch5.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+test_model para Bernoulli
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch6.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+test_model para Gaussian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 
@@ -1055,6 +1154,7 @@ test_model_batch
  por cada variante de Bayes Ingenuo.
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 
 \series bold
@@ -1078,7 +1178,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
+	filename ../../../../Downloads/Estadistica_TP1-master 15/C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
 	lyxscale 50
 	scale 50
 
@@ -1114,7 +1214,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
+	filename ../../../../Downloads/Estadistica_TP1-master 15/C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
 	lyxscale 50
 	scale 50
 
@@ -1345,9 +1445,16 @@ Tasa de aciertos con 100% de Datos de entrenamiento
 \end_layout
 
 \begin_layout Standard
-Se puede observar que el modelo con una mayor tasa de aciertos es el ————-
- con un ———.
- Una de las razones por el cual este enfoque es el mayor se debe a que——
+Se puede observar que el modelo con una mayor tasa de aciertos es el enfoque
+ de Bernoulli con un 91,5%, el cuál también tiene una mayor velocidad computacio
+nal ( el resultado, computa más rápido que el resto).
+ Por otra lado, cabe mencionar, tal y como vimos en clase, una de las ventajas
+ de enfoque gaussiano es que se puede guardar menos información, ya que
+ usamos la función de densidad usando la ecuación, ya que para un un histograma
+ se tiene que guardar un histograma por cada pixel por cada clase, por lo
+ que su almacenamiento sería significativamente alto, comparado con los
+ otros dos enfoques.
+ 
 \end_layout
 
 \end_deeper
