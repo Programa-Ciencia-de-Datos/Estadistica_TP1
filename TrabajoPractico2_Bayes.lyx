@@ -151,7 +151,7 @@ Implementación de la clasificación multi-clase con Bayes ingenuo (100 puntos)
 \uwave off
 \noun off
 \color none
-Para el presente ejercicio, se implementará la clasificación de digitos
+Para el presente ejercicio, se implementará la clasificación de dígitos
  manualmente escritos en 10 clases (dígitos decimales del 0 al 9).
  La Figura 
 \begin_inset CommandInset ref
@@ -195,7 +195,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/muestra_datos.png
+	filename Plots/screenshots/muestra_datos.png
 	lyxscale 85
 	scale 50
 
@@ -262,7 +262,7 @@ p\left(t=k|\overrightarrow{m}_{i}\right)\end{array}
 \end_inset
 
 Para aproximarla, se utiliza el teorema de Bayes, el cual luego de desarrollar
- y simplificar la expresion de tal probabilidad posterior, se concluye que
+ y simplificar la expresión de tal probabilidad posterior, se concluye que
  esta es proporcional a la multiplicación de la probabilidad a priori de
  
 \begin_inset Formula $p\left(t=k\right)$
@@ -328,13 +328,17 @@ train_model.
 \end_layout
 
 \begin_layout Standard
-R/ Su implementación fue realizada dentro de la función train model, donde
+
+\series bold
+Solución:
+\series default
+ La implementación fue realizada dentro de la función train model, donde
  se toma como muestra el dataset (expresada en forma de tensor) para cada
  uno de los formatos de las observaciones, es decir a nivel de escala de
  grises y de forma binarizada.
  El resultado final es un tensor unidimensional con 10 posiciones (1 por
  clase) dando como resultado un 10% de la probabilidad ya que se cuenta
- con 60 imagenes por clase.
+ con 60 imágenes por clase.
  En este punto específico solo se toma como probabilidad marginal el caso
  binarizado de las observaciones.
 \end_layout
@@ -348,7 +352,6 @@ A nivel de código en la figura 2 se puede apreciar el detalle de la implementac
 
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 \begin_inset Float figure
 placement H
@@ -360,7 +363,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/prob_priori.png
+	filename Plots/screenshots/prob_priori.png
 	scale 50
 
 \end_inset
@@ -372,7 +375,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Implementación para el cálculo de probibilidad a priori o marginal
+Implementación para el cálculo de probabilidad a priori o marginal
 \end_layout
 
 \end_inset
@@ -429,7 +432,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/output_ppriori.png
+	filename Plots/screenshots/output_ppriori.png
 	scale 50
 
 \end_inset
@@ -454,6 +457,7 @@ Resultado del cálculo de la probabilidad a Priori
 
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Enumerate
 Para evaluar la verosimilitud 
@@ -494,11 +498,11 @@ Para realizar este calculo solo se le permite usar un ciclo
 \emph on
 for, 
 \emph default
-con una iteracion por clase 
+con una iteración por clase 
 \begin_inset Formula $k$
 \end_inset
 
-, como maximo
+, como máximo
 \series default
 .
 \end_layout
@@ -509,8 +513,12 @@ con una iteracion por clase
 \end_layout
 
 \begin_layout Standard
-R/ En un enfoque basado en histogramas se necesitó de la utilidad de la
- graficación de histogramas singulares por clases y de un histograma compuesto.
+
+\series bold
+Solución:
+\series default
+ En un enfoque basado en histogramas se necesitó de la utilidad de la graficació
+n de histogramas singulares por clases y de un histograma compuesto.
  Lo primero es tabular el resultado para el caso de los histogramas singulares
  dada la matriz 
 \shape italic
@@ -539,7 +547,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -554,7 +562,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -569,7 +577,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -586,7 +594,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -601,7 +609,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -616,7 +624,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -633,7 +641,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -648,7 +656,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -663,7 +671,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -680,7 +688,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -695,7 +703,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/Histograms/p1_given_k/CompoundPlot1.svg
+	filename Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -751,32 +759,32 @@ e Histograma Compuesto
 Con base a los resultados en el cuadro 1 se tienen las siguientes conclusiones:
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 Las probabilidades graficadas con base al modelo basado en histogramas se
  resumen en la frecuencia que aparecen probabilidades en el trayecto del
  eje x.
  En este caso el histograma compuesto nos puede dar una idea inicial de
  cual sería un serio candidato a la clase predominante.
  En los resultados obtenidos se puede notar que la clase candidata predominante
- corresponde a la clase 2.
+ corresponde a la clase 2 por tener la mayor probabilidad.
  
 \end_layout
 
-\begin_layout Itemize
-El uso de histogramas como medio para determinar cual clase posse dominio
- según la frencuencia de probabilidades graficadas, no es medio seguro ni
- robusto para el estimado de una clase dominante.
+\begin_layout Enumerate
+El uso de histogramas como medio para determinar cual clase posee dominio
+ según la frecuencia de probabilidades graficadas, no es tan seguro o robusto
+ para el estimado de una clase dominante.
 \end_layout
 
-\begin_layout Itemize
-El método se sustenta en conclusiones visuales los cuales están sujetos
+\begin_layout Enumerate
+El método se sustenta en conclusiones visuales las cuales están sujetos
  a cantidad de clases y cantidad de muestras.
  El aumento de estos 2 factores significaría la inviabilidad del método.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Enumerate
 La graficación de histogramas singulares nos pueden dar pistas de cual clase
- posee mayor frencuencia de aparición de probabilidades a lo largo de el
+ posee mayor frecuencia de aparición de probabilidades a lo largo de el
  eje x, sin embargo no es eficiente sino se tiene disponible un histograma
  compuesto para ver su comportamiento en comparación con el resto de clases.
 \end_layout
@@ -830,24 +838,55 @@ solo se necesita almacenar los parametros mu y sigma
 \end_layout
 
 \begin_layout Standard
-R/ En cuanto a la representación propuesta por histogramas es un enfoque
- que se limita únicamente a la parte visual haciendo que el alcance del
- método tenga una eficiencia menor como se pudo apreciar en el punto anterior.
- La ventaja de un enfoque basado en el modelo paramétrico radica en el uso
- de puntuaciones y de aplicación directa del corrector Laplaciano, el cual
- permite que probabilidades cercanas a cero no se indefina con los cálculos
- de probabilidades.
- Otra ventaja que tiene este método es el uso de parámetros definidos por
- ejemplo el uso de mu y sigma para una densidad Gaussiana dando mayor control
- sobre los cálculos y criticidad al momento de seleccionar una clase.
+
+\series bold
+Solución:
+\series default
+ En cuanto a la representación propuesta por histogramas es un enfoque que
+ se limita únicamente a la parte visual, haciendo que el alcance del método
+ tenga una eficiencia menor como se pudo apreciar dentro de las conclusiones
+ anteriores, en particular la 4.
+ 
+\color black
+Una de las ventajas que tiene el enfoque Gaussiano es que tras utilizar
+ los parámetros de 
+\color inherit
+
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\color black
+ y 
+\color inherit
+
+\begin_inset Formula $\sigma$
+\end_inset
+
+
+\color black
+ se logra formar una campana Gaussiana, haciendo que no se penalice de forma
+ estricta las observaciones, ya que en el enfoque de histogramas las observacion
+es que no caben en las cubetas son usualmente asignadas con valor de cero,
+ que en el caso de hacer una corrección de Laplace seria casi cero.
+
+\color brown
+ 
+\color inherit
+Otra ventaja del enfoque del modelo paramétrico radica en el uso de puntajes
+ en cada clase a través de una ecuación de una forma mas precisa, y con
+ criterio para seleccionar la mayor de todas las probabilidades.
+
+\color brown
+ 
 \end_layout
 
 \begin_layout Standard
 A nivel de implementación la figura 4 muestra a nivel de código el uso de
  un modelo paramétrico basado en la densidad de la función Gaussiana.
- Nótese el uso de puntuaciones para determinar la clase predominante, en
- este caso como resultado se obtuvo que la clase predominante corresponde
- a la número 2 (Índice 2 del lista).
+ Nótese el uso de puntajes para determinar la clase predominante, en este
+ caso como resultado se obtuvo que la clase predominante corresponde a la
+ número 1 (Índice 1 del lista).
  En comparativa con el modelo con enfoque de histogramas se obtuvo el mismo
  resultado.
 \end_layout
@@ -862,8 +901,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/score_gaussian.png
-	scale 50
+	filename Plots/screenshots/score_gaussian.png
+	scale 70
 
 \end_inset
 
@@ -916,7 +955,11 @@ y retorne una lista con las dos matrices (
 \end_layout
 
 \begin_layout Standard
-R/ Para este punto la implemetación esta dada en la figura 5 que se ilustra
+
+\series bold
+Solución:
+\series default
+ Para este punto la implementación esta dada en la figura 5 que se ilustra
  a continuación:
 \end_layout
 
@@ -930,8 +973,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Downloads/Estadistica_TP1-master 12/Plots/screenshots/Lista_Matrices_Prob.png
-	scale 50
+	filename Plots/screenshots/Lista_Matrices_Prob.png
+	scale 60
 
 \end_inset
 
@@ -1040,7 +1083,7 @@ Para esta sección se establece
 test_model 
 \emph default
 para las dos variantes del modelo.
- Su lógica debe ser distinta, ya que la forma de calcular la probabilidd
+ Su lógica debe ser distinta, ya que la forma de calcular la probabilidad
  varia una de otra.
  A continuación se muestra la lógica de programación, y su estructura.
  Ambas funciones se usan para el apartado anterior, y la explicación de
@@ -1058,7 +1101,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch5.png
+	filename Plots/screenshots/Batch5.png
 	lyxscale 40
 	scale 40
 
@@ -1098,7 +1141,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch6.png
+	filename Plots/screenshots/Batch6.png
 	lyxscale 40
 	scale 40
 
@@ -1161,10 +1204,20 @@ test_model_batch
 Solución
 \series default
 : Para este enunciado se utiliza dos funciones para el cálculo de la tasa
- de aciertos para ambas variantes tanto para Bernoulli como la Gaussianna
- utilizando la misma lógica de programación variando ciertas consideraciones
- por las probabilidades que utlizan cada una pero ambas logran identificar
- las observaciones corectamente clasificadas en el modelo.
+ de aciertos para ambas variantes de Bernoulli y Gaussiana utilizando la
+ misma lógica de programación, pero variando la llamada del algoritmo a
+ utilizar, ya sea 
+\shape italic
+test
+\shape default
+\emph on
+_model_bernoulli
+\emph default
+ o 
+\emph on
+test_model_gaussian
+\emph default
+.
  A continuación se muestra las funciones descritas:
 \end_layout
 
@@ -1178,9 +1231,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 15/C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch1.png
+	filename Plots/screenshots/Batch1.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1214,9 +1267,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 15/C:/Users/gracerivera/Desktop/Data Science Program/Estadística para Ciencia de Datos/TP1/Batch2.png
+	filename Plots/screenshots/Batch2.png
 	lyxscale 50
-	scale 50
+	scale 40
 
 \end_inset
 
@@ -1353,9 +1406,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="3">
+<lyxtabular version="3" rows="2" columns="2">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -1368,20 +1420,11 @@ Enfoque Gaussiano
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Engoque Bernoulli
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Enfoque de Histogramas
+Engoque Bernoulli
 \end_layout
 
 \end_inset
@@ -1392,16 +1435,7 @@ Enfoque de Histogramas
 \begin_inset Text
 
 \begin_layout Plain Layout
-T.A = 83.83%
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-TA=91.50%
+TA = 83.83%
 \end_layout
 
 \end_inset
@@ -1410,7 +1444,7 @@ TA=91.50%
 \begin_inset Text
 
 \begin_layout Plain Layout
-TA=
+TA=91.50%
 \end_layout
 
 \end_inset
@@ -1450,7 +1484,7 @@ Se puede observar que el modelo con una mayor tasa de aciertos es el enfoque
 nal ( el resultado, computa más rápido que el resto).
  Por otra lado, cabe mencionar, tal y como vimos en clase, una de las ventajas
  de enfoque gaussiano es que se puede guardar menos información, ya que
- usamos la función de densidad usando la ecuación, ya que para un un histograma
+ usamos la función de densidad usando la ecuación, ya que para un histograma
  se tiene que guardar un histograma por cada pixel por cada clase, por lo
  que su almacenamiento sería significativamente alto, comparado con los
  otros dos enfoques.
@@ -1533,7 +1567,7 @@ name "tab:Tasas-de-aciertos"
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="13">
+<lyxtabular version="3" rows="5" columns="13">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1910,125 +1944,6 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-Enfoque Histograma
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Media
 \end_layout
 
@@ -2038,7 +1953,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+75.27
 \end_layout
 
 \end_inset
@@ -2157,7 +2072,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.25
 \end_layout
 
 \end_inset
@@ -2305,9 +2220,9 @@ Adicionalmente, en el enfoque de Bernoulli se realiza una binarización del
  conjunto de datos, lo cual simplifica bastante la obtención de las probabilidad
 es de verosimilitud para cada pixel (con valor de '0' o '1') para cada una
  de las clases.
- Otro consideración a comtemplar es que para el enfoque Gaussiano, dicho
- algoritmo depende de 2 párametros: la media y varianza; en donde la varianza
- puede necesitar en ocasiones de una correción de Laplace para que cuando
+ Otro consideración a contemplar es que para el enfoque Gaussiano, dicho
+ algoritmo depende de 2 parámetros: la media y varianza; en donde la varianza
+ puede necesitar en ocasiones de una corrección de Laplace para que cuando
  sea cero, se sustituya por un valor de casi cero y así no se indefina la
  probabilidad global.
  
