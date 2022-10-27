@@ -1962,7 +1962,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+72.22
 \end_layout
 
 \end_inset
@@ -1971,7 +1971,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+67.77
 \end_layout
 
 \end_inset
@@ -1980,7 +1980,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+72.78
 \end_layout
 
 \end_inset
@@ -1989,7 +1989,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+62.50
 \end_layout
 
 \end_inset
@@ -1998,7 +1998,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70.83
 \end_layout
 
 \end_inset
@@ -2007,7 +2007,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+73.33
 \end_layout
 
 \end_inset
@@ -2016,7 +2016,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+72.50
 \end_layout
 
 \end_inset
@@ -2025,7 +2025,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+74.45
 \end_layout
 
 \end_inset
@@ -2034,7 +2034,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+74.45
 \end_layout
 
 \end_inset
@@ -2043,7 +2043,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -2052,7 +2052,7 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -2081,7 +2081,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.64
 \end_layout
 
 \end_inset
@@ -2090,7 +2090,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13.36
 \end_layout
 
 \end_inset
@@ -2099,7 +2099,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10.21
 \end_layout
 
 \end_inset
@@ -2108,7 +2108,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.24
 \end_layout
 
 \end_inset
@@ -2117,7 +2117,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6.68
 \end_layout
 
 \end_inset
@@ -2126,7 +2126,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6.29
 \end_layout
 
 \end_inset
@@ -2135,7 +2135,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+7.47
 \end_layout
 
 \end_inset
@@ -2144,7 +2144,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+9.43
 \end_layout
 
 \end_inset
@@ -2153,7 +2153,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8.65
 \end_layout
 
 \end_inset
@@ -2162,7 +2162,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -2171,7 +2171,7 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+-
 \end_layout
 
 \end_inset
@@ -2223,8 +2223,8 @@ es de verosimilitud para cada pixel (con valor de '0' o '1') para cada una
  Otro consideración a contemplar es que para el enfoque Gaussiano, dicho
  algoritmo depende de 2 parámetros: la media y varianza; en donde la varianza
  puede necesitar en ocasiones de una corrección de Laplace para que cuando
- sea cero, se sustituya por un valor de casi cero y así no se indefina la
- probabilidad global.
+ sea cero, se sustituya por un valor que tienda a cero y así no se indefina
+ la probabilidad global.
  
 \end_layout
 
