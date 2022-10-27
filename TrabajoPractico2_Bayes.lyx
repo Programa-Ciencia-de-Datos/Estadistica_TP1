@@ -195,7 +195,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename Plots/screenshots/muestra_datos.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/muestra_datos.png
 	lyxscale 85
 	scale 50
 
@@ -363,7 +363,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/prob_priori.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/prob_priori.png
 	scale 50
 
 \end_inset
@@ -432,7 +432,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/output_ppriori.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/output_ppriori.png
 	scale 50
 
 \end_inset
@@ -547,7 +547,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_1.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -562,7 +562,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_2.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -577,7 +577,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_3.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -594,7 +594,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_4.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -609,7 +609,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_5.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -624,7 +624,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_6.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -641,7 +641,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_7.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -656,7 +656,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_8.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -671,7 +671,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_9.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -688,7 +688,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/Case_plot_1_10.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -703,7 +703,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Plots/Histograms/p1_given_k/CompoundPlot1.svg
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -901,7 +901,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/score_gaussian.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/score_gaussian.png
 	scale 70
 
 \end_inset
@@ -973,7 +973,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Lista_Matrices_Prob.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Lista_Matrices_Prob.png
 	scale 60
 
 \end_inset
@@ -1101,7 +1101,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Batch5.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch5.png
 	lyxscale 40
 	scale 40
 
@@ -1141,7 +1141,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Batch6.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch6.png
 	lyxscale 40
 	scale 40
 
@@ -1231,7 +1231,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Batch1.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch1.png
 	lyxscale 50
 	scale 40
 
@@ -1267,7 +1267,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename Plots/screenshots/Batch2.png
+	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch2.png
 	lyxscale 50
 	scale 40
 
@@ -1366,30 +1366,24 @@ Solución:
 test_model_batch 
 \emph default
 para poder probar la tasa de aciertos.
- Se observa un número significativo de observaciones con valores 0 o nulos,
- debido a que existen observaciones que no están dentro de los 
-\begin_inset Quotes cld
-\end_inset
-
-bins
-\begin_inset Quotes crd
-\end_inset
-
- de los histogramas, y como éste penaliza de forma estricta cada observación,
- puede que no esté en ninguna de las cubetas, por lo que la probabilidad
- de ocurrencia para esa observación sería cero, y aún más grave, al aplicarles
- logaritmos, se indefine ya que ln(0) no esta definido.
- Esto también se observa en el enfoque Gaussiano, por lo que también para
- en este caso se observa un comportamiento similar con valores cero o nulos.
- Por lo que se realiza un tratamiento/corrección vista en clase: La corrección
- de Laplace, ya que según definición se aumenta el recuento de la variable
- con cero a un valor pequeño en el numerador, para que la probabilidad total
- no se convierta en cero o se indefina.
- En este caso aquellas probabilidades que no caigan en las distintas cubetas
- del histograma se les imputa un epsilon, para que cuando se trabaje con
- los logaritmos no se indefinan.
- La mayoría de las implementaciones del modelo Naive Bayes aceptan esta
+ Se puede observar un comportamiento único, y es que cuando se aplica la
+ ecuación manual del gaussiano se observa una cantidad de valores de 0 y
+ nulos, debido a que puede que la varianza sea cero, y esto da como resultado
+ la indefinición de la ecuación al dividir entre cero, por lo que se realiza
+ dos tratamientos/correcciones vistos en clase: El primero es sustituir
+ el valor de varianza por un valor de epsilon, cuando ésta es cero.
+ Y en la segunda, se realiza la corrección de Laplace, ya que según la definició
+n se aumenta el recuento de la variable con cero a un valor pequeño en el
+ numerador, para que la probabilidad total no se convierta en cero o se
+ indefina.
+ La mayoría de las implementaciones del modelo Bayes Ingenuos aceptan esta
  forma de corrección o una equivalente como parámetro.
+ Por otro lado, cuando se aplica el mvn de la librería de sklearn se puede
+ observar que estos valores 0 y nulos no se observan en estimaciones de
+ las matrices de probabilidades.
+ Lo anterior fue comprobado por un testeo que se realiza con los datos de
+ estudio.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1398,10 +1392,27 @@ En cuanto a la tasa de aciertos, los resultados que se tienen al entrenar
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
+\begin_inset Float table
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tasa de aciertos con 100% de Datos de entrenamiento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -1424,7 +1435,7 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-Engoque Bernoulli
+Enfoque Bernoulli
 \end_layout
 
 \end_inset
@@ -1458,18 +1469,6 @@ TA=91.50%
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tasa de aciertos con 100% de Datos de entrenamiento
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1482,13 +1481,6 @@ Tasa de aciertos con 100% de Datos de entrenamiento
 Se puede observar que el modelo con una mayor tasa de aciertos es el enfoque
  de Bernoulli con un 91,5%, el cuál también tiene una mayor velocidad computacio
 nal ( el resultado, computa más rápido que el resto).
- Por otra lado, cabe mencionar, tal y como vimos en clase, una de las ventajas
- de enfoque gaussiano es que se puede guardar menos información, ya que
- usamos la función de densidad usando la ecuación, ya que para un histograma
- se tiene que guardar un histograma por cada pixel por cada clase, por lo
- que su almacenamiento sería significativamente alto, comparado con los
- otros dos enfoques.
- 
 \end_layout
 
 \end_deeper
