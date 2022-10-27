@@ -195,7 +195,7 @@ status open
 \noun off
 \color none
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/muestra_datos.png
+	filename Plots/screenshots/muestra_datos.png
 	lyxscale 85
 	scale 50
 
@@ -363,7 +363,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/prob_priori.png
+	filename Plots/screenshots/prob_priori.png
 	scale 50
 
 \end_inset
@@ -432,7 +432,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/output_ppriori.png
+	filename Plots/screenshots/output_ppriori.png
 	scale 50
 
 \end_inset
@@ -547,7 +547,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_1.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_1.svg
 	scale 25
 
 \end_inset
@@ -562,7 +562,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_2.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_2.svg
 	scale 25
 
 \end_inset
@@ -577,7 +577,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_3.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_3.svg
 	scale 25
 
 \end_inset
@@ -594,7 +594,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_4.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_4.svg
 	scale 25
 
 \end_inset
@@ -609,7 +609,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_5.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_5.svg
 	scale 25
 
 \end_inset
@@ -624,7 +624,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_6.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_6.svg
 	scale 25
 
 \end_inset
@@ -641,7 +641,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_7.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_7.svg
 	scale 25
 
 \end_inset
@@ -656,7 +656,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_8.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_8.svg
 	scale 25
 
 \end_inset
@@ -671,7 +671,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_9.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_9.svg
 	scale 25
 
 \end_inset
@@ -688,7 +688,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/Case_plot_1_10.svg
+	filename Plots/Histograms/p1_given_k/Case_plot_1_10.svg
 	scale 25
 
 \end_inset
@@ -703,7 +703,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/Histograms/p1_given_k/CompoundPlot1.svg
+	filename Plots/Histograms/p1_given_k/CompoundPlot1.svg
 	scale 25
 
 \end_inset
@@ -901,7 +901,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/score_gaussian.png
+	filename Plots/screenshots/score_gaussian.png
 	scale 70
 
 \end_inset
@@ -973,7 +973,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Lista_Matrices_Prob.png
+	filename Plots/screenshots/Lista_Matrices_Prob.png
 	scale 60
 
 \end_inset
@@ -1101,7 +1101,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch5.png
+	filename Plots/screenshots/Batch5.png
 	lyxscale 40
 	scale 40
 
@@ -1141,7 +1141,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch6.png
+	filename Plots/screenshots/Batch6.png
 	lyxscale 40
 	scale 40
 
@@ -1231,7 +1231,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch1.png
+	filename Plots/screenshots/Batch1.png
 	lyxscale 50
 	scale 40
 
@@ -1267,7 +1267,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../../Downloads/Estadistica_TP1-master 17/Plots/screenshots/Batch2.png
+	filename Plots/screenshots/Batch2.png
 	lyxscale 50
 	scale 40
 
@@ -1411,10 +1411,6 @@ Tasa de aciertos con 100% de Datos de entrenamiento
 \end_layout
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
@@ -1465,10 +1461,6 @@ TA=91.50%
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1580,6 +1572,8 @@ name "tab:Tasas-de-aciertos"
 
 \begin_layout Plain Layout
 
+\size small
+Corrida
 \end_layout
 
 \end_inset
@@ -1588,7 +1582,9 @@ name "tab:Tasas-de-aciertos"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 1
+
+\size small
+1
 \end_layout
 
 \end_inset
@@ -1597,7 +1593,9 @@ Corrida 1
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 2
+
+\size small
+2
 \end_layout
 
 \end_inset
@@ -1606,7 +1604,9 @@ Corrida 2
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 3
+
+\size small
+3
 \end_layout
 
 \end_inset
@@ -1615,7 +1615,9 @@ Corrida 3
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 4
+
+\size small
+4
 \end_layout
 
 \end_inset
@@ -1624,7 +1626,9 @@ Corrida 4
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 5
+
+\size small
+5
 \end_layout
 
 \end_inset
@@ -1633,7 +1637,9 @@ Corrida 5
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 6
+
+\size small
+6
 \end_layout
 
 \end_inset
@@ -1642,7 +1648,9 @@ Corrida 6
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 7
+
+\size small
+7
 \end_layout
 
 \end_inset
@@ -1651,7 +1659,9 @@ Corrida 7
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 8
+
+\size small
+8
 \end_layout
 
 \end_inset
@@ -1660,7 +1670,9 @@ Corrida 8
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 9
+
+\size small
+9
 \end_layout
 
 \end_inset
@@ -1669,7 +1681,9 @@ Corrida 9
 \begin_inset Text
 
 \begin_layout Plain Layout
-Corrida 10
+
+\size small
+10
 \end_layout
 
 \end_inset
@@ -1678,7 +1692,12 @@ Corrida 10
 \begin_inset Text
 
 \begin_layout Plain Layout
-Media
+
+\size small
+\begin_inset Formula $\mu$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1687,7 +1706,12 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-Desviación Estándar
+
+\size small
+\begin_inset Formula $\sigma$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1698,7 +1722,9 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
-Enfoque Gaussiano
+
+\size small
+Gaussiano
 \end_layout
 
 \end_inset
@@ -1707,6 +1733,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 69.44
 \end_layout
 
@@ -1716,6 +1744,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 66.11
 \end_layout
 
@@ -1725,6 +1755,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 58.33
 \end_layout
 
@@ -1734,6 +1766,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 65.56
 \end_layout
 
@@ -1743,6 +1777,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 56.67
 \end_layout
 
@@ -1752,6 +1788,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 66.11
 \end_layout
 
@@ -1761,6 +1799,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 68.89
 \end_layout
 
@@ -1770,6 +1810,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 67.22
 \end_layout
 
@@ -1779,6 +1821,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 67.78
 \end_layout
 
@@ -1788,6 +1832,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 68.33
 \end_layout
 
@@ -1797,6 +1843,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 65.44
 \end_layout
 
@@ -1806,6 +1854,8 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 4.39
 \end_layout
 
@@ -1817,7 +1867,9 @@ Enfoque Gaussiano
 \begin_inset Text
 
 \begin_layout Plain Layout
-Enfoque Bernoulli
+
+\size small
+Bernoulli
 \end_layout
 
 \end_inset
@@ -1826,6 +1878,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 81.11
 \end_layout
 
@@ -1835,6 +1889,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 78.33
 \end_layout
 
@@ -1844,6 +1900,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 77.22
 \end_layout
 
@@ -1853,6 +1911,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 80.00
 \end_layout
 
@@ -1862,6 +1922,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 68.33
 \end_layout
 
@@ -1871,6 +1933,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 75.56
 \end_layout
 
@@ -1880,6 +1944,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 77.78
 \end_layout
 
@@ -1889,6 +1955,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 77.78
 \end_layout
 
@@ -1898,6 +1966,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 81.11
 \end_layout
 
@@ -1907,6 +1977,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 80.56
 \end_layout
 
@@ -1916,6 +1988,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 77.78
 \end_layout
 
@@ -1925,6 +1999,8 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 3.80
 \end_layout
 
@@ -1936,7 +2012,12 @@ Enfoque Bernoulli
 \begin_inset Text
 
 \begin_layout Plain Layout
-Media
+
+\size small
+\begin_inset Formula $\mu$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1945,6 +2026,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 75.27
 \end_layout
 
@@ -1954,6 +2037,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 72.22
 \end_layout
 
@@ -1963,6 +2048,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 67.77
 \end_layout
 
@@ -1972,6 +2059,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 72.78
 \end_layout
 
@@ -1981,6 +2070,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 62.50
 \end_layout
 
@@ -1990,6 +2081,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 70.83
 \end_layout
 
@@ -1999,6 +2092,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 73.33
 \end_layout
 
@@ -2008,6 +2103,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 72.50
 \end_layout
 
@@ -2017,6 +2114,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 74.45
 \end_layout
 
@@ -2026,6 +2125,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 74.45
 \end_layout
 
@@ -2035,6 +2136,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 -
 \end_layout
 
@@ -2044,6 +2147,8 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 -
 \end_layout
 
@@ -2055,7 +2160,12 @@ Media
 \begin_inset Text
 
 \begin_layout Plain Layout
-Desviación Estándar
+
+\size small
+\begin_inset Formula $\sigma$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2064,6 +2174,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8.25
 \end_layout
 
@@ -2073,6 +2185,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8.64
 \end_layout
 
@@ -2082,6 +2196,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 13.36
 \end_layout
 
@@ -2091,6 +2207,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 10.21
 \end_layout
 
@@ -2100,6 +2218,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8.24
 \end_layout
 
@@ -2109,6 +2229,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 6.68
 \end_layout
 
@@ -2118,6 +2240,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 6.29
 \end_layout
 
@@ -2127,6 +2251,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 7.47
 \end_layout
 
@@ -2136,6 +2262,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 9.43
 \end_layout
 
@@ -2145,6 +2273,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8.65
 \end_layout
 
@@ -2154,6 +2284,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 -
 \end_layout
 
@@ -2163,6 +2295,8 @@ Desviación Estándar
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 -
 \end_layout
 
