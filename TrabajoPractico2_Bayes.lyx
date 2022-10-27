@@ -128,6 +128,14 @@ Modo de trabajo
 : Grupos de 3 personas.
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Integrantes: 
+\series default
+Dennis Luna Acuña, Graciela Rivera Picado, Luis Enrique Vargas Porras
+\end_layout
+
 \begin_layout Abstract
 En el presente trabajo práctico se introduce la implementación de redes
  bayesianas.
